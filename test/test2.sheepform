@@ -1,0 +1,15 @@
+User Input Form
+
+Personal Details
+	<First Name, text> <Last Name, text>
+	<Age, int>
+	<Address, text>
+	<Phone Number, phone>
+
+Another Section
+	<Are you gay?, dropdown>
+		<Yes>
+		<Maybe>
+	<What is today?, date>
+	<Do we have your consent?, checkbox>
+	<How much money do you have?, double>
