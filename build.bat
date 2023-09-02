@@ -34,9 +34,12 @@ exit /b
 
 :buildApp
 	 echo Building .exe with go build...
-	 setlocal enabledelayedexpansion enableextensions
-     set GO_FILES=
-     for %%x in (src\*.go) do set GO_FILES=!GO_FILES! %%x
+	 REM setlocal enabledelayedexpansion enableextensions
+     REM set GO_FILES=
+     REM for %%x in (src\*.go) do set GO_FILES=!GO_FILES! %%x
+	 REM go build -o sheep-forms.exe %GO_FILES%
+	 cd src
+	 go build -o ../sheepforms.exe main.go
+	 cd ..
 
-	 go build -o sheep-forms.exe %GO_FILES%
-	 endlocal
+	 REM endlocal

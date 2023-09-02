@@ -10,6 +10,11 @@ Should it be? No. This is meant to get you to the MVP of your needs as fast as p
 extra fluff or bullshit. Everything else is on you, the programmer. Do your job and quit crawling
 GitHub to automate your entire career.
 
+## TODO
+- Implement attribute=value parsing
+- Implement Flutter template strings
+- Implement HTML template strings
+
 ## Using sheep_parser
 
 ### Windows
